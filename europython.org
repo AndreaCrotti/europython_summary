@@ -19,11 +19,19 @@ Lots of interesting topics and too many to mention in a single blog post, but fo
 
 ** Larry Hasting and the *gilectomy*
 
-The infamous GIL has been a reason of debate for a very long time.
 
 https://wiki.python.org/moin/GlobalInterpreterLock
+https://www.youtube.com/watch?v=ph374fJqFPE
+
+The infamous GIL has been a reason of debate for a very long time now, and many have asked for its removal.
+
+Larry Hastings (one of Python core developers) gave a very good talk about a project he's been working on for the last few months.
+Apparently removing the GIL is not that hard, however the performances are terrible, even when adding multiple cores.
 
 ** Asyncio
+
+Asyncio 
+https://docs.python.org/3/library/asyncio.html
 
 ** Pytest nodev
 
@@ -34,11 +42,17 @@ It works by simply trying to call everything it finds and see if it behaves as d
 
 And it does not just call functions but instantiate classes, looking up in methods/properties and attributes.
 Because this tool just calls arbitrary code it's very important to not run it on your local environment, and the author was demoing it running it in a docker container without root access.
+
 The great thing about this project is that it has great potential to help detecting logic duplication, and there are plans for an actual online index that allows to search.
 
 ** Coala
 
+Coala (https://github.com/coala-analyzer/coala) is a very interesting framework that aims to make code analysis easier for all languages.
+This group of guy s
+
 ** Arguman
+
+http://en.arguman.org/
 
 * Python evolution
 
