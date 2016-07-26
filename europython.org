@@ -1,14 +1,18 @@
+* TODO add links to all the interesting talks
+
 * Bilbao
 
 The conference was organised for the second year in Bilbao, in the Basque country in north of Spain.
 
-Bilbao has been an industrial city for a long time, not very known to tourists.
-In more recent years the fall of the heavy industries (which reduced pollution) and some famous architects gave a great push to Bilbao.
+Bilbao has been an industrial and quite polluted city for a long time.
+In more recent years however the decline of the heavy industries (which reduced pollution) and some famous architects gave a great push to Bilbao.
 https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao
 
-Food and drinks were also great 
+The food (meat and fish specially) is also great, and definitively make it a very interesting place to visit.
+Near the old city there is also a nice funicolar (which had its 100th anniversary recently) that brings you up.
 
 [[./images/bilbao_night.jpg]]
+[[./images/funicolar_view.jpg]]
 
 * Conference venue
 
@@ -36,12 +40,16 @@ https://www.youtube.com/watch?v=ph374fJqFPE
 The infamous GIL has been a reason of debate for a very long time now, and many have asked for its removal.
 
 Larry Hastings (one of Python core developers) gave a very good talk about a project he's been working on for the last few months.
-Apparently removing the GIL is not that hard, however the performances are terrible, even when adding multiple cores.
+Apparently removing the GIL is not that hard and Larry already did it in an experimental branch, however the performances are terrible, even when adding multiple cores.
+
+The reasons are mainly related with data locality, how CPU caches work and the reference counting garbage collector currently used by Python.
+He then discussed some possible solutions that can be used to mitigate these issues, and dived more deeply into the problems associated with them.
 
 ** Asyncio
 
 Asyncio 
 https://docs.python.org/3/library/asyncio.html
+is a "toolkit" initially created by 
 
 ** Pytest nodev
 
@@ -63,11 +71,45 @@ Two things in particular I find interesting about this project:
 - it tries to re-use all existing technology, using /bears/ to interface with existing tools
 - it doesn't just report on style violations but can also act on them fixing the code
 
+** Jupyter
+
+Jupyter is the project that was known as IPython notebook, and it doesn't stop impressing me for how great it is.
+
+Visualisation of complex data has always fascinated me, and maybe the best thing I've seen about that at europython was a talk that combined jupyter, bokeh and networkx.
+
+In just a few lines of code the speaker managed to create an interactive network using data from twitter users that tweeted about europython.
+This graph was interactive as you could explore, zoom in and even remove nodes.
+For example the @europython account was obviously always in the middle
+
+http://jupyter.org/
+http://bokeh.pydata.org/en/latest/
+https://networkx.github.io/
+
 ** Arguman
+
+Very interesting platform that was shown during a lightning talk 
 
 http://en.arguman.org/
 
-** Bokeh 
+This is an example of one of the most discussed topics by developers:
+http://en.arguman.org/vim-is-better-than-emacs
+
+** Reverse debugger
+
+Armin Rigo (one of Pypy authors) gave a great little demo about reverse debugging in Python.
+https://morepypy.blogspot.ie/2016/07/reverse-debugging-for-python.html
+
+It was quite impressive to see how you can go back in time and set complex watch expressions.
+
+** LIGO and the gravitational waves discovery
+
+In February there was a great Physics discovery done by one of the physics institute, you can read more here: https://www.ligo.caltech.edu/news/ligo20160211
+
+I'm not brave enough to try to explain the Physics behind all this, but the discovery was apparently groundbreaking and the coronation of a dream for many.
+The speaker did a great job explaining this very complex topic, and Python one of the main technologies for this project.
+ 
+** Disney 
+
 
 * Social events
 
@@ -78,7 +120,12 @@ Since the venue is just along the river there was a rental place for kayaks just
 It was one of the hottest day of the year for Bilbao and thankfully we left around 20, when the sun started going down.
 # add something more about this event
 
-I also attended 
+I also attended the social event organised the third night of the event, in a very nice venue that looked like a theatre.
+
+The Italian community (with some of the past and probably future europython organisers) was also quite strong in Bilbao this year, one night we managed to get 30 Italians in the same restaurant.
+
+[[./images/italian.jpg]]
+
 
 * Python evolution
 
@@ -88,7 +135,6 @@ I'm glad to see that the
 From the schedule it also becomes apparent the great interest around asyncio and all the ecosystem around it.
 
 Asyncio is not a framework but more of a toolkit for asynchronous code, and even projects like Twisted can potentially rebuild on top of that.
-The problem with that is mostly the documentation which is still
 
 * What's
 
@@ -98,3 +144,7 @@ Overall the conference was a great success, and I would encourage everyone to at
 
 The only "complaint" might be that not all talks 
 Maybe not every talk was interesting or entertaining 
+
+* References
+
+** TODO add all the links to talks etc and just reference them from the actual content
