@@ -106,10 +106,13 @@ It was quite impressive to see how you can go back in time and set complex watch
 In February there was a great Physics discovery done by one of the physics institute, you can read more here: https://www.ligo.caltech.edu/news/ligo20160211
 
 I'm not brave enough to try to explain the Physics behind all this, but the discovery was apparently groundbreaking and the coronation of a dream for many.
-The speaker did a great job explaining this very complex topic, and Python one of the main technologies for this project.
- 
-** Disney 
+The impressive thing about this project is that almost everything in the chain of tools needed during this project has been written in Python and released as open source straight away.
 
+A great and inspiring way to do science and overall a very interesting project.
+
+** Python at Disney studios
+
+Disney also had one of the keynotes, and similarly to the LIGO keynote, they also have an impressive use of Python in their technology stack.
 
 * Social events
 
