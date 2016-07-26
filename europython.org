@@ -1,9 +1,55 @@
 * Bilbao
- 
+
+The conference was organised for the second year in Bilbao, in the Basque country in north of Spain.
+
+Bilbao has been an industrial city for a long time, not very known to tourists.
+In more recent years the fall of the heavy industries (which reduced pollution) and some famous architects gave a great push to Bilbao.
+https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao
+
 * Conference venue
+
+The venue was in a great modern building next to the river.
+Kudos to the organisers for the great work in preparing it as well.
 
 * Interesting talks
 
+Lots of interesting topics and too many to mention in a single blog post, but for some honourable mentions:
+
+# add links for the various talks here
+
+** Larry Hasting and the *gilectomy*
+
+The infamous GIL has been a reason of debate for a very long time.
+
+https://wiki.python.org/moin/GlobalInterpreterLock
+
+** Asyncio
+
+** Pytest nodev
+
+Another very interesting idea is pytest-nodev (https://github.com/nodev-io/pytest-nodev).
+
+This little project allows you to find code that solves your problem in your environment, specifying just the behaviour you need.
+It works by simply trying to call everything it finds and see if it behaves as desired.
+
+And it does not just call functions but instantiate classes, looking up in methods/properties and attributes.
+Because this tool just calls arbitrary code it's very important to not run it on your local environment, and the author was demoing it running it in a docker container without root access.
+The great thing about this project is that it has great potential to help detecting logic duplication, and there are plans for an actual online index that allows to search.
+
+** Coala
+
+** Arguman
+
 * Python evolution
+
+There is an ever growing interest in big data and data science, with topics like machine learning and neural networks creating more and more interest.
+I'm glad to see that the
+
+From the schedule it also becomes apparent the great interest around asyncio and all the ecosystem around it.
+
+Asyncio is not a framework but more of a toolkit for asynchronous code, and even projects like Twisted can potentially rebuild on top of that.
+The problem with that is mostly the documentation which is still
+
+* What's
 
 * Other events
