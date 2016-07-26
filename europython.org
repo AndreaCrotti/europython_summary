@@ -6,10 +6,20 @@ Bilbao has been an industrial city for a long time, not very known to tourists.
 In more recent years the fall of the heavy industries (which reduced pollution) and some famous architects gave a great push to Bilbao.
 https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao
 
+Food and drinks were also great 
+
+[[./images/bilbao_night.jpg]]
+
 * Conference venue
 
 The venue was in a great modern building next to the river.
 Kudos to the organisers for the great work in preparing it as well.
+
+[[./images/venue_first.jpg]]
+
+[[./images/foosball.jpg]]
+
+[[./images/venue_river.jpg]]
 
 * Interesting talks
 
@@ -48,11 +58,27 @@ The great thing about this project is that it has great potential to help detect
 ** Coala
 
 Coala (https://github.com/coala-analyzer/coala) is a very interesting framework that aims to make code analysis easier for all languages.
-This group of guy s
+Two things in particular I find interesting about this project:
+
+- it tries to re-use all existing technology, using /bears/ to interface with existing tools
+- it doesn't just report on style violations but can also act on them fixing the code
 
 ** Arguman
 
 http://en.arguman.org/
+
+** Bokeh 
+
+* Social events
+
+Europython organisers did a very good job keeping everyone busy.
+The second day I was one of the 50 lucky attendees who managed to get a ticket for the kayaking event.
+Since the venue is just along the river there was a rental place for kayaks just 5 minutes away.
+
+It was one of the hottest day of the year for Bilbao and thankfully we left around 20, when the sun started going down.
+# add something more about this event
+
+I also attended 
 
 * Python evolution
 
@@ -66,4 +92,9 @@ The problem with that is mostly the documentation which is still
 
 * What's
 
-* Other events
+* Conclusion
+
+Overall the conference was a great success, and I would encourage everyone to attend.
+
+The only "complaint" might be that not all talks 
+Maybe not every talk was interesting or entertaining 
