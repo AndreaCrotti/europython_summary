@@ -114,9 +114,23 @@ A great and inspiring way to do science and overall a very interesting project.
 
 Disney also had one of the keynotes, and similarly to the LIGO keynote, they also have an impressive use of Python in their technology stack.
 
+** Prompt tookit
+
+
+
+** Prometheus
+
+I heard something about this project before but didn't really know much about it.
+
+https://prometheus.io/
+
+
 * Social events
 
-Europython organisers did a very good job keeping everyone busy.
+Europython organisers did a very good job keeping everyone busy day and night, organising various events.
+
+The europython mobile app was also a great way to communicate with all the attendees, and they even created a channel on Telegram (a Whatsapp alternative).
+
 The second day I was one of the 50 lucky attendees who managed to get a ticket for the kayaking event.
 Since the venue is just along the river there was a rental place for kayaks just 5 minutes away.
 
@@ -133,20 +147,21 @@ The Italian community (with some of the past and probably future europython orga
 * Python evolution
 
 There is an ever growing interest in big data and data science, with topics like machine learning and neural networks creating more and more interest.
-I'm glad to see that the
+It was also nice to see that the scientific community overall not only embraced Python as their language of choice, but also is the /avant guarde/ for Python3 adoption, as this official statement about it claims:
 
-From the schedule it also becomes apparent the great interest around asyncio and all the ecosystem around it.
+https://python3statement.github.io/
 
+Another big thing (as the schedule can argument) is asyncio and all the ecosystem around it.
+# TODO: this is already written also above, try to merge
 Asyncio is not a framework but more of a toolkit for asynchronous code, and even projects like Twisted can potentially rebuild on top of that.
-
-* What's
 
 * Conclusion
 
 Overall the conference was a great success, and I would encourage everyone to attend.
 
-The only "complaint" might be that not all talks 
-Maybe not every talk was interesting or entertaining 
+The only "complaint" might be that not all talks were well prepared or well presented, which is a shame since sometimes the topics would have been really interesting.
+
+The level was also mostly superficial (apart from a few )
 
 * References
 
