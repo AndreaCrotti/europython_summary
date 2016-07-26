@@ -101,6 +101,8 @@ https://morepypy.blogspot.ie/2016/07/reverse-debugging-for-python.html
 
 It was quite impressive to see how you can go back in time and set complex watch expressions.
 
+It's somehow similar to the ELM travelling debugger: http://debug.elm-lang.org/ but it's even more impressive done in Python, since it's a lot easier to do that in language based on immutable data structures.
+
 ** LIGO and the gravitational waves discovery
 
 In February there was a great Physics discovery done by one of the physics institute, you can read more here: https://www.ligo.caltech.edu/news/ligo20160211
@@ -113,10 +115,12 @@ A great and inspiring way to do science and overall a very interesting project.
 ** Python at Disney studios
 
 Disney also had one of the keynotes, and similarly to the LIGO keynote, they also have an impressive use of Python in their technology stack.
+They also use Python all over the pipeline, resorting on C++ when some extra speed is necessary.
 
-** Prompt tookit
+** Prompt toolkit
 
-
+This is a great little project that does makes it very simple to write smart command line applications, with syntax highlighting, auto completion and so on and so forth.
+The list of related projects using it it's quite long and growing, and interestingly also IPython 5 is based on it, making the IPython experience a lot nicer.
 
 ** Prometheus
 
@@ -161,7 +165,7 @@ Overall the conference was a great success, and I would encourage everyone to at
 
 The only "complaint" might be that not all talks were well prepared or well presented, which is a shame since sometimes the topics would have been really interesting.
 
-The level was also mostly superficial (apart from a few )
+I sadly could not stay over the weekend for the sprints but there were some very interesting projects to work on, and I was told it went quite well.
 
 * References
 
