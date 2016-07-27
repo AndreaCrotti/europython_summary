@@ -1,23 +1,31 @@
-* TODO add links to all the interesting talks
 
 * Bilbao
 
 The conference was organised for the second year in Bilbao, in the Basque country in north of Spain.
 
-Bilbao has been an industrial and quite polluted city for a long time.
-In more recent years however the decline of the heavy industries (which reduced pollution) and some famous architects gave a great push to Bilbao.
+https://ep2016.europython.eu/en/
+
+(you can see the schedule here https://ep2016.europython.eu/p3/schedule/ep2016/)
+
+Bilbao has been an industrial and quite polluted city for a long time,
+however in more recent years however the decline of the heavy
+industries (which reduced pollution) and some famous architects gave a
+great push to Bilbao.
+
 https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao
 
+# TODO: do we care about the city itself anyway?
 The food (meat and fish specially) is also great, and definitively make it a very interesting place to visit.
 Near the old city there is also a nice funicolar (which had its 100th anniversary recently) that brings you up.
 
 [[./images/bilbao_night.jpg]]
 [[./images/funicolar_view.jpg]]
+** TODO add links to all the interesting talks
 
 * Conference venue
 
 The venue was in a great modern building next to the river.
-Kudos to the organisers for the great work in preparing it as well.
+Kudos to the organisers for the great work in decorating it so well, with lots of big tables, common areas and so on and so forth.
 
 [[./images/venue_first.jpg]]
 
@@ -38,30 +46,25 @@ https://wiki.python.org/moin/GlobalInterpreterLock
 https://www.youtube.com/watch?v=ph374fJqFPE
 
 The infamous GIL has been a reason of debate for a very long time now, and many have asked for its removal.
+Removing the GIL however is not going to happen if it breaks all existing code and current CPython semantic.
 
 Larry Hastings (one of Python core developers) gave a very good talk about a project he's been working on for the last few months.
-Apparently removing the GIL is not that hard and Larry already did it in an experimental branch, however the performances are terrible, even when adding multiple cores.
+Apparently removing the GIL is not that hard and Larry already did it in an experimental branch, however the performances are currently terrible.
 
 The reasons are mainly related with data locality, how CPU caches work and the reference counting garbage collector currently used by Python.
 He then discussed some possible solutions that can be used to mitigate these issues, and dived more deeply into the problems associated with them.
 
-** Asyncio
-
-Asyncio 
-https://docs.python.org/3/library/asyncio.html
-is a "toolkit" initially created by 
-
 ** Pytest nodev
 
-Another very interesting idea is pytest-nodev (https://github.com/nodev-io/pytest-nodev).
+Another very interesting talk was about pytest-nodev (https://github.com/nodev-io/pytest-nodev).
 
 This little project allows you to find code that solves your problem in your environment, specifying just the behaviour you need.
-It works by simply trying to call everything it finds and see if it behaves as desired.
+It works by simply trying to call everything all the callable objects in your environment, checking if anything has the desired behaviour.
 
-And it does not just call functions but instantiate classes, looking up in methods/properties and attributes.
+And it does that not just calling functions but instantiating classes, looking up in methods/properties and attributes.
 Because this tool just calls arbitrary code it's very important to not run it on your local environment, and the author was demoing it running it in a docker container without root access.
 
-The great thing about this project is that it has great potential to help detecting logic duplication, and there are plans for an actual online index that allows to search.
+The great thing about this project is that it has the potential to help detecting logic duplication across many projects, and there are actually plans for an online index that allows to search.
 
 ** Coala
 
@@ -69,7 +72,9 @@ Coala (https://github.com/coala-analyzer/coala) is a very interesting framework 
 Two things in particular I find interesting about this project:
 
 - it tries to re-use all existing technology, using /bears/ to interface with existing tools
-- it doesn't just report on style violations but can also act on them fixing the code
+- it doesn't just report on style violations but can also act on them fixing the code itself
+
+This project is quickly growing and could be a very useful tool to help keeping the code nice and clean.
 
 ** Jupyter
 
@@ -78,23 +83,13 @@ Jupyter is the project that was known as IPython notebook, and it doesn't stop i
 Visualisation of complex data has always fascinated me, and maybe the best thing I've seen about that at europython was a talk that combined jupyter, bokeh and networkx.
 
 In just a few lines of code the speaker managed to create an interactive network using data from twitter users that tweeted about europython.
-This graph was interactive as you could explore, zoom in and even remove nodes.
-For example the @europython account was obviously always in the middle
+This graph was interactive as you could explore, zoom in and even remove nodes, getting a new graph.
 
 http://jupyter.org/
 http://bokeh.pydata.org/en/latest/
 https://networkx.github.io/
 
-** Arguman
-
-Very interesting platform that was shown during a lightning talk 
-
-http://en.arguman.org/
-
-This is an example of one of the most discussed topics by developers:
-http://en.arguman.org/vim-is-better-than-emacs
-
-** Reverse debugger
+** Pypy Reverse debugger
 
 Armin Rigo (one of Pypy authors) gave a great little demo about reverse debugging in Python.
 https://morepypy.blogspot.ie/2016/07/reverse-debugging-for-python.html
@@ -103,6 +98,8 @@ It was quite impressive to see how you can go back in time and set complex watch
 
 It's somehow similar to the ELM travelling debugger: http://debug.elm-lang.org/ but it's even more impressive done in Python, since it's a lot easier to do that in language based on immutable data structures.
 
+Sadly not many projects works straight out of the box with Pypy, but for the ones that do it's certainly something to try out.
+
 ** LIGO and the gravitational waves discovery
 
 In February there was a great Physics discovery done by one of the physics institute, you can read more here: https://www.ligo.caltech.edu/news/ligo20160211
@@ -110,23 +107,32 @@ In February there was a great Physics discovery done by one of the physics insti
 I'm not brave enough to try to explain the Physics behind all this, but the discovery was apparently groundbreaking and the coronation of a dream for many.
 The impressive thing about this project is that almost everything in the chain of tools needed during this project has been written in Python and released as open source straight away.
 
-A great and inspiring way to do science and overall a very interesting project.
+A great and inspiring way to do science and a very interesting project, that might have some important consequences.
 
 ** Python at Disney studios
 
 Disney also had one of the keynotes, and similarly to the LIGO keynote, they also have an impressive use of Python in their technology stack.
 They also use Python all over the pipeline, resorting on C++ when some extra speed is necessary.
 
+# TODO: a bit too vague maybe in this case?
+One nice thing about the talk was the idea that even though Disney uses technology very heavily and pushing it sometimes to the extremes, none of that should be visible in the final result.
+
 ** Prompt toolkit
 
 This is a great little project that does makes it very simple to write smart command line applications, with syntax highlighting, auto completion and so on and so forth.
+
 The list of related projects using it it's quite long and growing, and interestingly also IPython 5 is based on it, making the IPython experience a lot nicer.
+Another great project based on the prompt tolkit is http://xon.sh/, a multi platform shell written entirely in Python.
 
-** Prometheus
+# TODO: add a link to that talk
+There was a very lightning talk about it where the presenter told the evolution of his shell choice, exiting another shell at every step of the story, a bit like the movie Inception.
 
-I heard something about this project before but didn't really know much about it.
+# TODO: add prometheus only if makes sense in this context
+# ** Prometheus
 
-https://prometheus.io/
+# I heard something about this project before but didn't really know much about it.
+
+# https://prometheus.io/
 
 
 * Social events
@@ -138,8 +144,15 @@ The europython mobile app was also a great way to communicate with all the atten
 The second day I was one of the 50 lucky attendees who managed to get a ticket for the kayaking event.
 Since the venue is just along the river there was a rental place for kayaks just 5 minutes away.
 
-It was one of the hottest day of the year for Bilbao and thankfully we left around 20, when the sun started going down.
+It was one of the hottest day of the year (history apparently) for Bilbao but thankfully we left around 20, so at least noone got burnt.
 # add something more about this event
+
+[[./images/kayak1.JPG]]
+
+[[./images/kayak2.JPG]]
+
+[[./images/kayak3.JPG]]
+
 
 I also attended the social event organised the third night of the event, in a very nice venue that looked like a theatre.
 
@@ -151,7 +164,9 @@ The Italian community (with some of the past and probably future europython orga
 * Python evolution
 
 There is an ever growing interest in big data and data science, with topics like machine learning and neural networks creating more and more interest.
-It was also nice to see that the scientific community overall not only embraced Python as their language of choice, but also is the /avant guarde/ for Python3 adoption, as this official statement about it claims:
+
+It was also nice to see that the scientific community overall not only embraced Python as their language of choice,
+but also is the /avant guarde/ for Python3 adoption, as this official statement about it claims:
 
 https://python3statement.github.io/
 
