@@ -161,7 +161,7 @@ The Italian community (with some of the past and probably future europython orga
 [[./images/italian.jpg]]
 
 
-* Python evolution
+*  Python present and future
 
 There is an ever growing interest in big data and data science, with topics like machine learning and neural networks creating more and more interest.
 
@@ -176,7 +176,7 @@ Asyncio is not a framework but more of a toolkit for asynchronous code, and even
 
 * Conclusion
 
-Overall the conference was a great success, and I would encourage everyone to attend.
+Overall the conference was a great success from my point of view, and I would encourage everyone to attend in the upcoming .
 
 The only "complaint" might be that not all talks were well prepared or well presented, which is a shame since sometimes the topics would have been really interesting.
 
