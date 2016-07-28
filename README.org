@@ -1,31 +1,35 @@
+#+AUTHOR: Andrea Crotti
+#+TITLE: Iwoca at Europython
+
+This year I had the opportunity to represent iwoca at europython 2016.
+
+It was a great conference with a great bunch of people, really well organised by the local team.
+
+All the videos will be loaded on this channel when ready (but you can already find the raw footage from the live streaming):
+https://www.youtube.com/user/PythonItalia/videos
 
 * Bilbao
 
-The conference was organised for the second year in Bilbao, in the Basque country in north of Spain.
-
-https://ep2016.europython.eu/en/
-
-(you can see the schedule here https://ep2016.europython.eu/p3/schedule/ep2016/)
+Europython was organised for the second year in Bilbao, in the Basque country in north of Spain.
 
 Bilbao has been an industrial and quite polluted city for a long time,
 however in more recent years however the decline of the heavy
-industries (which reduced pollution) and some famous architects gave a
-great push to Bilbao.
+industries (which reduced pollution) and some famous architects gave it
+great push.
+
+It's surrounded by green hills and close to the seaside, with some
+great food and very pleasant to work around, the perfect place for a
+tech conference.
 
 https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao
 
-# TODO: do we care about the city itself anyway?
-The food (meat and fish specially) is also great, and definitively make it a very interesting place to visit.
-Near the old city there is also a nice funicolar (which had its 100th anniversary recently) that brings you up.
-
 [[./images/bilbao_night.jpg]]
 [[./images/funicolar_view.jpg]]
-** TODO add links to all the interesting talks
 
 * Conference venue
 
 The venue was in a great modern building next to the river.
-Kudos to the organisers for the great work in decorating it so well, with lots of big tables, common areas and so on and so forth.
+Kudos to the organisers for the great work in decorating it so well, with lots of big tables and common areas which made it really easy to meet people and work together.
 
 [[./images/venue_first.jpg]]
 
@@ -147,6 +151,8 @@ Since the venue is just along the river there was a rental place for kayaks just
 It was one of the hottest day of the year (history apparently) for Bilbao but thankfully we left around 20, so at least noone got burnt.
 # add something more about this event
 
+[[./images/ice_age.jpg]]
+
 [[./images/kayak1.JPG]]
 
 [[./images/kayak2.JPG]]
@@ -185,3 +191,8 @@ I sadly could not stay over the weekend for the sprints but there were some very
 * References
 
 ** TODO add all the links to talks etc and just reference them from the actual content
+
+https://ep2016.europython.eu/en/
+
+(you can see the schedule here https://ep2016.europython.eu/p3/schedule/ep2016/)
+
