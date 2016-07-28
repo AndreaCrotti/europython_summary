@@ -31,6 +31,8 @@ https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao
 The venue was in a great modern building next to the river.
 Kudos to the organisers for the great work in decorating it so well, with lots of big tables and common areas which made it really easy to meet people and work together.
 
+Very nice also the idea of two foosball tables and two retro game machines powered by a raspberry PI, another great way to socialise.
+
 [[./images/venue_first.jpg]]
 
 [[./images/foosball.jpg]]
@@ -39,9 +41,7 @@ Kudos to the organisers for the great work in decorating it so well, with lots o
 
 * Interesting talks
 
-Lots of interesting topics and too many to mention in a single blog post, but for some honourable mentions:
-
-# add links for the various talks here
+There were lots of interesting talks and too many to mention in a single blog post, but here are some honourable mentions:
 
 ** Larry Hasting and the *gilectomy*
 
@@ -162,12 +162,12 @@ It was one of the hottest day of the year (history apparently) for Bilbao but th
 
 I also attended the social event organised the third night of the event, in a very nice venue that looked like a theatre.
 
-The Italian community (with some of the past and probably future europython organisers) was also quite strong in Bilbao this year, one night we managed to get 30 Italians in the same restaurant.
+The Italian community (with some of the past and probably future europython organisers) this year was quite strong in Bilbao, one night we managed to get 30 Italians in the same restaurant.
 
 [[./images/italian.jpg]]
 
 
-*  Python present and future
+* Python present and future
 
 There is an ever growing interest in big data and data science, with topics like machine learning and neural networks creating more and more interest.
 
@@ -178,7 +178,7 @@ https://python3statement.github.io/
 
 Another big thing (as the schedule can argument) is asyncio and all the ecosystem around it.
 # TODO: this is already written also above, try to merge
-Asyncio is not a framework but more of a toolkit for asynchronous code, and even projects like Twisted can potentially rebuild on top of that.
+Asyncio is not a framework but more of a toolkit for asynchronous code, and even projects like Twisted can potentially use that as foundation on top of that.
 
 * Conclusion
 
