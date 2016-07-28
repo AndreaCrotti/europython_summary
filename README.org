@@ -1,5 +1,6 @@
 #+AUTHOR: Andrea Crotti
 #+TITLE: Iwoca at Europython
+#+OPTIONS: toc:nil num:nil ^:nil
 
 This year I had the opportunity to represent iwoca at europython 2016.
 
@@ -131,17 +132,9 @@ Another great project based on the prompt tolkit is http://xon.sh/, a multi plat
 # TODO: add a link to that talk
 There was a very lightning talk about it where the presenter told the evolution of his shell choice, exiting another shell at every step of the story, a bit like the movie Inception.
 
-# TODO: add prometheus only if makes sense in this context
-# ** Prometheus
-
-# I heard something about this project before but didn't really know much about it.
-
-# https://prometheus.io/
-
-
 * Social events
 
-Europython organisers did a very good job keeping everyone busy day and night, organising various events.
+Europython organisers did a great job keeping everyone busy day and night, organising various events.
 
 The europython mobile app was also a great way to communicate with all the attendees, and they even created a channel on Telegram (a Whatsapp alternative).
 
